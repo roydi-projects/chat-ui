@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8f8;
+
+  .spotim-header {
+    text-align: center;
+    background-color: #0082DD;
+    height: 150px;
+    color: white;
+
+    .spotim-title {
+      font-size: 1.5em;
+    }
+  }
+
+  .message-create-container .avatar {
+    width: 23px;
+    margin: 5px;
+    float: right;
+  }
+
+  .message-create-container .username {
+    color: #000000;
+    font-size: 20px;
+    margin-left: -40px;
+  }
+
+  .message-create-container button {
+    margin-top: 5px !important;
+  }
+
+  .message-list-container {
+    background-color: #f7f8f8;
+    margin-bottom: 20px;
+  }
+
+  .chat-area {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    background-color: #ffffff;
+    height: 400px;
+    text-align: left;
+    color: #000000 !important;
+    border: 1px solid rgba(34,36,38,.15);
+    padding: 20px;
+  }
+
+  .chat-container textarea::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+
+  .chat-container {
+    position: fixed;
+    bottom:0%;
+  }
+
+  .message-create-container {
+      background-color: #ffffff;
+  }
+
+  .chat-area {
+    margin-bottom: 20px;
+  }
+
+  .chat-area .avatar {
+    height: 23px;
+  }
+
+  .chat-area .message {
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .chat-area .message .username {
+    font-weight: bold;
+  }
+
+  .chat-area .message-row {
+    margin: 5px -15px 5px -15px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    padding: 2px;
+    display: flex;
+  }
+
+  .chat-area .my-message-row {
+    background-color: #5ebdff;
+    color: #ffffff;
+  }
+
+  .chat-area .other-message-row {
+    background-color: #00de5b;
+    color: #ffffff;
+  }
+
+  .chat-area .system-message-row {
+    background-color: #cacaca;
+    font-style: italic;
+  }
+}

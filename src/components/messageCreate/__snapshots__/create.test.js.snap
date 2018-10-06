@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should pass a Component snapshot test 1`] = `
+<div
+  className="ui container message-create-container"
+>
+  <div
+    className="ui grid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="two wide column"
+      >
+        <img
+          alt="https://spotim-demo-chat-server.herokuapp.com/avatars/004-jigglypuff.png"
+          className="avatar"
+          src="https://spotim-demo-chat-server.herokuapp.com/avatars/004-jigglypuff.png"
+        />
+      </div>
+      <div
+        className="one wide column"
+      >
+        <p
+          className="username"
+        >
+          
+          :
+        </p>
+      </div>
+      <div
+        className="ten wide column"
+      >
+        <div
+          className="sc-bdVaJa cFNnwJ"
+        >
+          <textarea
+            onChange={[Function]}
+            onInput={[Function]}
+            placeholder="Add a comment..."
+            rows={3}
+            style={
+              Object {
+                "resize": "",
+              }
+            }
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        className="two wide column"
+      >
+        <button
+          className="ui primary button"
+          data-test="test-btn"
+          disabled={undefined}
+          onClick={[Function]}
+          role="button"
+          tabIndex={undefined}
+        >
+          Send
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

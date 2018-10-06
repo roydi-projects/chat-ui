@@ -1,0 +1,21 @@
+Add your general design and decision comments here:
+
+the app consists of 3 components.
+App:
+  - connects to the socket server
+  - and sets the layout off the chat ui
+
+MessageCreate:
+ - is responsible for holding the user's info (avatar and username)
+ - handles sending a message to the socket
+
+ it will communicate with the localStorage to get/set the avatar and username
+
+ MessageList
+  - handles the chat window
+
+  sets the messages format in the chat window
+
+
+Feedback regarding this exam is always welcomed.
+What did you like? What didn't you like? What was missing?
